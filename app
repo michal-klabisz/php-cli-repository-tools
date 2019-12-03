@@ -1,0 +1,9 @@
+#!/usr/bin/php
+
+<?php
+
+if (php_sapi_name() !== 'cli') {
+    exit;
+}
+
+echo "Hello World\n";
