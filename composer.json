@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Klabisz\\Api\\": "Api/",
+      "Klabisz\\Command\\": "Command/"
+    }
+  }
+}

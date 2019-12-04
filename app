@@ -1,9 +1,8 @@
 #!/usr/bin/php
 
 <?php
-
 if (php_sapi_name() !== 'cli') {
     exit;
 }
 
-echo "Hello World\n";
+require_once __DIR__ . "/SingleCommandConsole.php";
