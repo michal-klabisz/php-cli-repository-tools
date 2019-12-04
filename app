@@ -11,7 +11,7 @@ use Klabisz\Command\RepositoryCommand;
 use Klabisz\Console\SingleCommandConsole;
 
 try {
-    
+
     $repositoryCommand = new RepositoryCommand();
 
     $console = new SingleCommandConsole($repositoryCommand);
@@ -19,5 +19,5 @@ try {
     $console->runCommand($argc, $argv);
 
 } catch (\Exception $e) {
-    echo $e->getMessage();
+    echo $e->getMessage() . "\n";
 }
