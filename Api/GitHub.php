@@ -19,7 +19,7 @@ class GitHub implements ServiceInterface  {
         $this->branch = $branch;
     }
 
-    public function getQuery($queryName) {
+    protected function getQuery($queryName) {
         if ($this->repository && $this->branch) {
             $context = stream_context_create(
                 array(
